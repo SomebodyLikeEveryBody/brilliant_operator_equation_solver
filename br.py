@@ -39,7 +39,7 @@ def generate_expression(p_array_nbs, p_list_operations):
     :rtype: string
     """
 
-    ret_expression = ''
+    t ret_expression = ''
 
     for i in range(0, len(p_array_nbs) - 1):
         ret_expression += p_array_nbs[i] + ' ' + p_list_operations[i] + ' '
